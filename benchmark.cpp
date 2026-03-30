@@ -1,5 +1,5 @@
 #include <benchmark/benchmark.h>
-#include "page_replacement.h"
+#include "page_replacement.cpp"
 #include <vector>
 #include <random>
 
