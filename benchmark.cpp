@@ -36,7 +36,7 @@ static void BM_LRU(benchmark::State& state) {
 }
 
 // Test con diverse dimensioni memoria
-BENCHMARK(BM_FIFO)->Arg(4)->Arg(8)->Arg(16)->Arg(32)->Arg(64);
-BENCHMARK(BM_LRU)->Arg(4)->Arg(8)->Arg(16)->Arg(32)->Arg(64);
+BENCHMARK(BM_FIFO)->Arg(4)->Arg(8)->Arg(16)->Arg(32)->Arg(64)->Arg(128);
+BENCHMARK(BM_LRU)->Arg(4)->Arg(8)->Arg(16)->Arg(32)->Arg(64)->Arg(128);
 
 BENCHMARK_MAIN();
